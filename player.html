@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <div id="player-page" data-role="page">
+         <header data-role="header">
+            <a href="#" data-icon="back" data-iconpos="notext" data-rel="back" title="Go back">Back</a>
+            <h1>Player</h1>
+         </header>
+         <div data-role="content">
+            <div id="player">
+               <div id="media-info">
+                  <p>You're listnening <span id="media-name"></span></p>
+                  <p>Located at <span id="media-path"></span></p>
+                  <div>
+                     Played <label id="media-played">-</label> of <label id="media-duration">-</label>
+                     <input type="range" name="time-slider" id="time-slider" value="0" min="0" max="100" data-highlight="true" />
+                  </div>
+               </div>
+               <a href="#" id="player-play" title="Play / Pause"></a>
+               <a href="#" id="player-stop" title="Stop"></a>
+            </div>
+         </div>
+         <footer data-role="footer">
+            <h3 id="copyright-title">Created by Aurelio De Rosa</h3>
+            <a id="credits-button" href="aurelio.html" data-icon="info" data-iconpos="notext" class="ui-btn-right">Credits</a>
+         </footer>
+      </div>
+   </body>
+</html>

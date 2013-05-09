@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.audero.free.player.auderoaudioplayer"
+        version   = "1.0.0">
+
+   <name>Audero Audio Player</name>
+
+   <description>Audero Audio Player is a basic audio player that collects the audio files found and then allows to listen them. This app also enables to update the list at any time to include other files that you might have downloaded after running the operation the first time. You can also remove from the list any unwanted audio by clicking an icon on the right side of the song's name. The sounds list is ordered alphabetically with letter dividers to organize and group the list items, and has a search box to filter the files.</description>
+
+   <author href="http://www.audero.it" email="aurelioderosa@gmail.com">Aurelio De Rosa</author>
+
+   <feature name="http://api.phonegap.com/1.0/network"/>
+   <feature name="http://api.phonegap.com/1.0/media"/>
+   <feature name="http://api.phonegap.com/1.0/file"/>
+   <feature name="http://api.phonegap.com/1.0/notification"/>
+
+   <preference name="phonegap-version" value="2.3.0" />
+   <preference name="target-device" value="universal" />
+
+   <access origin="*" />
+
+   <!-- Icons -->
+   <icon src="icon.png" width="64" height="64" gap:role="default" />
+   <icon src="images/icon-72x72.png" width="72" height="72" gap:platform="android" gap:density="hdpi" />
+   <icon src="images/icon-96x96.png" width="96" height="96" gap:platform="android" gap:density="xhdpi" />
+   <icon src="images/icon-72x72.png" width="72" height="72" gap:platform="ios" />
+
+   <!-- Splash Screens -->
+   <gap:splash src="splash.png" />
+   <gap:splash src="images/splash-160x220.png" gap:platform="android" gap:density="ldpi" />
+   <gap:splash src="splash.png" gap:platform="android" gap:density="mdpi" />
+   <gap:splash src="images/splash-450x650.png" gap:platform="android" gap:density="hdpi" />
+</widget>

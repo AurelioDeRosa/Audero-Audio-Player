@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <div id="files-list-page" data-role="page">
+         <header data-role="header">
+            <a href="#" data-icon="back" data-iconpos="notext" data-rel="back" title="Go back">Back</a>
+            <h1>Media list</h1>
+            <a href="#" id="update-button" data-icon="refresh" data-iconpos="notext">Update list</a>
+         </header>
+         <div data-role="content">
+            <ul id="files-list" data-role="listview" data-autodividers="true" data-filter="true" data-split-icon="delete">
+            </ul>
+         </div>
+         <footer data-role="footer">
+            <h3 id="copyright-title">Created by Aurelio De Rosa</h3>
+            <a id="credits-button" href="aurelio.html" data-icon="info" data-iconpos="notext" class="ui-btn-right">Credits</a>
+         </footer>
+      <div id="waiting-popup" data-role="popup" data-position-to="window" data-dismissible="false">
+         <header data-role="header">
+            <h1>Updating</h1>
+         </header>
+         <div data-role="content">
+            <p>I'm searching audio files, please wait...</p>
+         </div>
+      </div>
+      </div>
+   </body>
+</html>
